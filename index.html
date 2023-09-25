@@ -41,6 +41,8 @@
             color: black;
             font-size: 150px;
             font-weight: bold;
+            text-shadow: 5px 5px 5px rgb(18, 18, 18);
+
         }
 
         .left {
@@ -54,12 +56,13 @@
         section {
             width: 400px;
             height: 400px;
-            background-image: linear-gradient(to top, #00c6ff 0%, #0072ff 51%, #00c6ff 100%);
+            background-image: linear-gradient(to right, #FF5F6D 0%, #FFC371 51%, #FF5F6D 100%);
             border-radius: 10px;
             border-radius: 50%;
             position: relative;
             border: 30px solid #222;
             z-index: 1000000;
+            box-shadow: 0px 0px 20px black;
         }
 
         section>div {
@@ -92,6 +95,7 @@
             cursor: pointer;
             z-index: -1000 !important;
             transition: .4s;
+            font-weight: bold;
         }
 
         span::before {
@@ -160,6 +164,7 @@
                 width: 100%;
                 height: 5%;
             }
+
             section>div {
                 font-size: 50px;
             }
