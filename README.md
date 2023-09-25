@@ -1,6 +1,6 @@
 # timer
-![1](https://github.com/Saba-Aghajani-developer/timer/assets/135870519/5526ae7b-897d-499b-af24-385f47736e2c)
-![2](https://github.com/Saba-Aghajani-developer/timer/assets/135870519/5d7b9ddc-d85d-46fa-885f-f14c7a7673d5)
+![1](https://github.com/Saba-Aghajani-developer/timer/assets/135870519/73fa4927-3366-4fe2-8c35-1ea240db621f)
+![2](https://github.com/Saba-Aghajani-developer/timer/assets/135870519/f43f279b-2388-46ea-b8e6-4045bd78f0b0)
 
 - [Demo Project](https://saba-aghajani-developer.github.io/timer/)
 
