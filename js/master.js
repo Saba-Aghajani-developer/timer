@@ -8,15 +8,15 @@ let _span = document.getElementsByTagName('span')
     let _set
     _span[0].addEventListener('click', () => {
         _set = setInterval(timer, 10)
-        document.getElementById('span1').style.top = '5px'
-        document.getElementById('span2').style.top = '-65px'
-        document.getElementById('span3').style.top = '-8px'
+        document.getElementById('span1').style.top = '-2px'
+        document.getElementById('span2').style.top = '-55px'
+        document.getElementById('span3').style.top = '-10px'
     })
     _span[1].addEventListener('click', () => {
         clearInterval(_set)
-        document.getElementById('span2').style.top = '-50px'
-        document.getElementById('span1').style.top = '-8px'
-        document.getElementById('span3').style.top = '-8px'
+        document.getElementById('span2').style.top = '-45px'
+        document.getElementById('span1').style.top = '-10px'
+        document.getElementById('span3').style.top = '-10px'
     })
     _span[2].addEventListener('click', () => {
         clearInterval(_set)
@@ -26,12 +26,12 @@ let _span = document.getElementsByTagName('span')
         _count[0].innerHTML = '00'
         _sec[0].innerHTML = '00'
         _min[0].innerHTML = '00'
-        document.getElementById('span3').style.top = '5px'
+        document.getElementById('span3').style.top = '-2px'
         setTimeout(() => {
-            document.getElementById('span3').style.top = '-8px'
+            document.getElementById('span3').style.top = '-10px'
         }, 800)
-        document.getElementById('span2').style.top = '-65px'
-        document.getElementById('span1').style.top = '-8px'
+        document.getElementById('span2').style.top = '-55px'
+        document.getElementById('span1').style.top = '-10px'
     })
     function timer() {
         count++
